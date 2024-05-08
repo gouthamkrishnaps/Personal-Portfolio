@@ -22,11 +22,11 @@
     min-height: 100vh;
     width: 100%;
 }
-.text-box h1{
-    font-size: 50px;
+.text-box span{
+    font-size: 60px;
 }
 .text-box{
-    width: 75%;
+    width: 100%;
 }
 /* Google Fonts */
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
@@ -60,8 +60,6 @@
 .resume-btn{
     transition: 200ms;
     padding: 7px;
-    width: 250px;
-    border-radius: 30px;
     background-color: rgba(255, 255, 255, 0.201);
     color: white;
     border: 0;
@@ -114,9 +112,10 @@ section{
     padding-top: 50px;
 }
 .card{
-    width: 24rem;
+    width: 100%;
     background-color: rgb(0, 0, 0);
     margin-top: 50px;  
+    margin-left: 20px;
 }
 .skill-card{
     background-color: rgba(128, 128, 128, 0.453);
@@ -132,6 +131,7 @@ section{
 .service-card{
     border-right: groove white;
     height: 260px;
+    
 }
 .card-effect{
     
@@ -148,6 +148,20 @@ section{
 .input-box{
     width: 100%;
 }
+.about-img{
+    width: 150px;
+}
+.skill-container{
+   width: 600px; 
+}
+.services{
+    min-height: 100vh;
+}
+.contact{
+    min-height: 70vh;
+    color: white;
+}
+
 
 @media (max-width:1000px){
     .name-div{
@@ -156,8 +170,8 @@ section{
     .img-div{
         height: 50vh;
     }
-    .text-box h1{
-        font-size: 35px;
+    .text-box span{
+        font-size: 70px;
         
     }
     .abt-des{
@@ -166,7 +180,88 @@ section{
     .text-box{
         width: 100%;
     }
-    .service-card{
-        border-right: 0;
+
+    .resume-btn{
+        font-size: 60px;
+        padding: 20px;
     }
+    .line-1{
+        font-size: 60px;
+    }
+    .know-btn button{
+        font-size: 60px;
+        font-weight: bold;
+    }
+    .abt-des{
+        font-size: 40px;
+    }
+    .about-img{
+        width: 250px;
+    }
+    .abt-head{
+        font-size: 80px;
+        font-weight: bold;
+    }
+    .skills-head{
+        font-size: 80px;
+        font-weight: bold;
+    }
+    .skill-card img{
+        width: 170px;
+        height: 170px;
+    }
+    .skill-card{
+        width: 250px;
+    }
+    .skill-container{
+        width: 100%;
+    }
+    .services{
+        font-size: 40px;
+    }
+    .service-head{
+        font-size: 80px;
+        font-weight: bold;
+    }
+    .project-head{
+        font-size: 80px;
+        font-weight: bold;
+    }
+    .contact-head{
+        font-size: 80px;
+        font-weight: bold;
+    }
+    .service-card{
+        border-right: groove white;
+        height: 460px;
+        padding: 50px;
+        border-right: 0;
+        font-size: 40px;
+    }
+    .desig-head{
+        font-size: 50px;
+    }
+    .contact-div{
+        font-size: 50px;
+    }
+    .contact-div input{
+        height: 90px;
+        font-size: 30px;
+    }
+    .contact-div textarea{
+        height: 550px;
+        font-size: 30px;
+    }
+    .contact-div button{
+        font-size: 40px;
+    }
+    .card h3{
+        font-size: 60px;
+    }
+    .card p{
+        font-size: 25px;
+    }
+
+   
+
 }
