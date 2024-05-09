@@ -312,28 +312,28 @@ function Home() {
           <div className="col-lg-1 col-sm-0"></div>
           <div className="col-lg-10 col-sm-12 p-5">
             <div className="row">
-              <div className="col-lg-3 col-md-12 col-sm-12 p-3 service-card">
+              <div className="col-lg-6 col-md-12 col-sm-12 p-3 service-card">
                 <div className=' card-effect'>
                   <h4 className='text-center fw-bold desig-head'>Full stack Developer</h4>
-                  <p className='mt-3' style={{textAlign:"justify"}}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga expedita delectus sapiente eius sint numquam, qui fugiat asperiores est optio fugit id at eligendi nulla quasi cumque nam aspernatur soluta?</p>
+                  <p className='mt-3' style={{textAlign:"justify"}}>As a full-stack MERN (MongoDB, Express.js, React.js, Node.js) developer, I offer comprehensive expertise in building modern, scalable, and dynamic web applications. With proficiency in both front-end and back-end technologies, I craft seamless user experiences and robust server-side functionalities. My skills include designing responsive UI/UX interfaces using React.js, implementing RESTful APIs with Node.js and Express.js, managing databases with MongoDB, and ensuring efficient deployment and maintenance of web applications. I bring a passion for clean code, agile methodologies, and continuous learning to every project, ensuring high-quality results that meet client needs and exceed expectations</p>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-12  col-sm-12 p-3 service-card">
+              <div className="col-lg-6 col-md-12  col-sm-12 p-3 ">
                 <div className=' card-effect'>
                   <h4 className='text-center fw-bold desig-head'>Web Designer</h4>
-                  <p className='mt-3' style={{textAlign:"justify"}}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga expedita delectus sapiente eius sint numquam, qui fugiat asperiores est optio fugit id at eligendi nulla quasi cumque nam aspernatur soluta?</p>
+                  <p className='mt-3' style={{textAlign:"justify"}}>As a web designer, I specialize in creating visually stunning and intuitive user interfaces that enhance the digital experience for your audience. With a keen eye for aesthetics and a deep understanding of user behavior, I craft designs that not only look great but also drive engagement and conversion. My expertise includes creating responsive layouts, optimizing user flows, and incorporating modern design trends to create impactful websites and digital assets. I collaborate closely with clients to understand their brand identity and objectives, ensuring that every design reflects their vision and resonates with their target audience. </p>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-12  col-sm-12 p-3 service-card">
+              <div className="col-lg-6 col-md-12  col-sm-12 p-3 service-card">
                 <div className=' card-effect'>
                   <h4 className='text-center fw-bold desig-head'>Front-end Developer</h4>
-                  <p className='mt-3' style={{textAlign:"justify"}}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga expedita delectus sapiente eius sint numquam, qui fugiat asperiores est optio fugit id at eligendi nulla quasi cumque nam aspernatur soluta?</p>
+                  <p className='mt-3' style={{textAlign:"justify"}}>I am a skilled front-end developer specializing in React.js, passionate about creating immersive and interactive user interfaces for web applications. With expertise in HTML, CSS, JavaScript, and React, I bring ideas to life by turning designs into responsive and dynamic components. I focus on optimizing performance, ensuring cross-browser compatibility, and implementing best practices to deliver fast and seamless user experiences. Whether it's building single-page applications, integrating APIs, or enhancing existing projects, I combine creativity with technical proficiency to produce visually appealing and functional solutions. I am dedicated to staying updated with the latest React developments and leveraging cutting-edge tools to deliver high-quality work that meets client objectives and exceeds expectations.</p>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-12  col-sm-12 p-3">
+              <div className="col-lg-6 col-md-12  col-sm-12 p-3">
                 <div className=' card-effect'>
                   <h4 className='text-center fw-bold desig-head'>Back-end Developer</h4>
-                  <p className='mt-3' style={{textAlign:"justify"}}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga expedita delectus sapiente eius sint numquam, qui fugiat asperiores est optio fugit id at eligendi nulla quasi cumque nam aspernatur soluta?</p>
+                  <p className='mt-3' style={{textAlign:"justify"}}>I am an experienced back-end developer specializing in Node.js and MongoDB, with a focus on building scalable and efficient server-side solutions for web applications. Leveraging the power of JavaScript, I design and implement RESTful APIs, manage databases, and handle server logic to ensure seamless data flow and optimal performance. With expertise in Node.js frameworks like Express.js and database management using MongoDB, I develop secure authentication systems, manage user sessions, and integrate third-party services to enhance functionality. I also prioritize code quality, scalability, and maintainability, using industry best practices and testing methodologies to deliver reliable and optimized back-end solutions.</p>
                 </div>
               </div>
             </div>
