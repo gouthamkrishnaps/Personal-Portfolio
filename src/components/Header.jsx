@@ -11,6 +11,7 @@ function Header() {
         <Navbar collapseOnSelect expand="lg" className='navbar shadow' sticky='top'>
           <Container>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <h3 className=' fw-bold'>Personal Portfolio</h3>
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="m-auto gap-5 nav-items">
                 <a href='#home'  className='nav-options fs-6'>Home</a>

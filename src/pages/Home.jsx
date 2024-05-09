@@ -164,7 +164,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div id='skills' className='skills about-page'>
+      <div id='skills' className='skills '>
         <h1 className='text-center skills-head'>Technical Skills</h1>
         <div className='d-flex justify-content-center align-items-center'>
           <div className="row skill-container">
@@ -178,7 +178,7 @@ function Home() {
                   transition={{ delay: 0.3 }}
                   className="react skill-card d-flex flex-column justify-content-center align-items-center">
                 <img src="https://clipartcraft.com/images/html5-logo-png-transparent-5.png" alt="" />
-                <p className='text-center'>HTML 5</p>
+                <p className='text-center text-light'>HTML 5</p>
               </motion.div>
               </div>
               <div className="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center">
@@ -188,7 +188,7 @@ function Home() {
                   transition={{ delay: 0.4 }}
                   className="react skill-card d-flex flex-column justify-content-center align-items-center">
                 <img src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-css-logo-png-transparent-svg-vector-bie-supply-9.png" alt="" />
-                <p className='text-center'>CSS 3</p>
+                <p className='text-center text-light'>CSS 3</p>
               </motion.div>
               </div>
               <div className="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center">
@@ -198,7 +198,7 @@ function Home() {
                   transition={{ delay: 0.5 }}
                     className="react skill-card d-flex flex-column justify-content-center align-items-center">
                 <img src="https://static.vecteezy.com/system/resources/previews/012/697/298/non_2x/3d-javascript-logo-design-free-png.png" alt="" />
-                <p className='text-center'>JavaScript</p>
+                <p className='text-center text-light'>JavaScript</p>
               </motion.div>
               </div>
               </div>
@@ -210,7 +210,7 @@ function Home() {
                     transition={{ delay: 0.6 }}
                     className="react skill-card d-flex flex-column justify-content-center align-items-center">
                   <img src="https://static.vecteezy.com/system/resources/previews/012/697/297/original/3d-bootstrap-programming-framework-logo-free-png.png" alt="" />
-                  <p className='text-center'>Bootstap</p>
+                  <p className='text-center text-light'>Bootstap</p>
                 </motion.div>
                 </div>
                 <div className="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center">
@@ -220,7 +220,7 @@ function Home() {
                       transition={{ delay: 0.7 }}
                       className="react skill-card d-flex flex-column justify-content-center align-items-center">
                     <img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" alt="" />
-                    <p className='text-center'>React js</p>
+                    <p className='text-center text-light'>React js</p>
                   </motion.div>
                   </div>
                   <div className="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center">
@@ -230,7 +230,7 @@ function Home() {
                       transition={{ delay: 0.8 }}
                       className="react skill-card d-flex flex-column justify-content-center align-items-center">
                     <img src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png" alt="" />
-                    <p className='text-center'>Node js</p>
+                    <p className='text-center text-light'>Node js</p>
                   </motion.div>
                   </div>
              </div>
@@ -243,7 +243,7 @@ function Home() {
                     transition={{ delay: 0.9 }} 
                     className="react skill-card d-flex flex-column justify-content-center align-items-center">
                   <img src="https://vectorified.com/images/express-js-icon-20.png" alt="" />
-                  <p className='text-center'>Express js</p>
+                  <p className='text-center text-light'>Express js</p>
                 </motion.div>
                 </div>
                 <div className="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center">
@@ -253,7 +253,7 @@ function Home() {
                     transition={{ delay: 1 }}
                     className="react skill-card d-flex flex-column justify-content-center align-items-center">
                   <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/angularjs_original_logo_icon_146649.png" alt="" />
-                  <p className='text-center'>Angular js</p>
+                  <p className='text-center text-light'>Angular js</p>
                 </motion.div>
                 </div>
                 <div className="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center">
@@ -263,7 +263,7 @@ function Home() {
                     transition={{ delay: 1.1 }}
                     className="react skill-card d-flex flex-column justify-content-center align-items-center">
                   <img src="https://logos-download.com/wp-content/uploads/2021/01/Git_Logo-420x420.png" alt="" />
-                  <p className='text-center'>Git</p>
+                  <p className='text-center text-light'>Git</p>
                 </motion.div>
                 </div>
               </div>
@@ -276,7 +276,7 @@ function Home() {
                     transition={{ delay: 1.2 }}
                     className="react skill-card d-flex flex-column justify-content-center align-items-center">
                   <img src="https://dwglogo.com/wp-content/uploads/2017/12/MongoDB_logo_01-768x530.png" alt="" />
-                  <p className='text-center'>Mongo DB</p>
+                  <p className='text-center text-light'>Mongo DB</p>
                 </motion.div>
                 </div>
                 <div className="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center">
@@ -286,7 +286,7 @@ function Home() {
                     transition={{ delay: 1.3 }} 
                     className="react skill-card d-flex flex-column justify-content-center align-items-center">
                   <img src="https://logospng.org/download/typescript/typescript-4096.png" alt="" />
-                  <p className='text-center'>TypeScript</p>
+                  <p className='text-center text-light'>TypeScript</p>
                 </motion.div>
                 </div>
                 <div className="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center align-items-center">
@@ -296,7 +296,7 @@ function Home() {
                     transition={{ delay: 1.4 }}
                     className="react skill-card d-flex flex-column justify-content-center align-items-center">
                   <img src="https://i0.wp.com/programmingwithmosh.com/wp-content/uploads/2020/02/reduxlogo.png?ssl=1" alt="" />
-                  <p className='text-center'>Redux</p>
+                  <p className='text-center text-light'>Redux</p>
                 </motion.div>
                 </div>
               </div>
@@ -312,10 +312,10 @@ function Home() {
           <div className="col-lg-1 col-sm-0"></div>
           <div className="col-lg-10 col-sm-12 p-5">
             <div className="row">
-              <div className="col-lg-6 col-md-12 col-sm-12 p-3 service-card">
+              <div className="col-lg-6 col-md-12 col-sm-12 p-3 service-card ">
                 <div className=' card-effect'>
                   <h4 className='text-center fw-bold desig-head'>Full stack Developer</h4>
-                  <p className='mt-3' style={{textAlign:"justify"}}>As a full-stack MERN (MongoDB, Express.js, React.js, Node.js) developer, I offer comprehensive expertise in building modern, scalable, and dynamic web applications. With proficiency in both front-end and back-end technologies, I craft seamless user experiences and robust server-side functionalities. My skills include designing responsive UI/UX interfaces using React.js, implementing RESTful APIs with Node.js and Express.js, managing databases with MongoDB, and ensuring efficient deployment and maintenance of web applications. I bring a passion for clean code, agile methodologies, and continuous learning to every project, ensuring high-quality results that meet client needs and exceed expectations</p>
+                  <p className='mt-3' style={{textAlign:"justify"}}>As a full-stack MERN (MongoDB, Express.js, React.js, Node.js) developer, I offer comprehensive expertise in building modern, scalable, and dynamic web applications. With proficiency in both front-end and back-end technologies, I craft seamless user experiences and robust server-side functionalities. My skills include designing responsive UI/UX interfaces using React.js, implementing RESTful APIs with Node.js and Express.js, managing databases with MongoDB, and ensuring efficient deployment and maintenance of web applications. I bring a passion for clean code, agile methodologies, and continuous learning to every project</p>
                 </div>
               </div>
               <div className="col-lg-6 col-md-12  col-sm-12 p-3 ">
@@ -324,13 +324,13 @@ function Home() {
                   <p className='mt-3' style={{textAlign:"justify"}}>As a web designer, I specialize in creating visually stunning and intuitive user interfaces that enhance the digital experience for your audience. With a keen eye for aesthetics and a deep understanding of user behavior, I craft designs that not only look great but also drive engagement and conversion. My expertise includes creating responsive layouts, optimizing user flows, and incorporating modern design trends to create impactful websites and digital assets. I collaborate closely with clients to understand their brand identity and objectives, ensuring that every design reflects their vision and resonates with their target audience. </p>
                 </div>
               </div>
-              <div className="col-lg-6 col-md-12  col-sm-12 p-3 service-card">
+              <div className="col-lg-6 col-md-12  col-sm-12 p-3 service-card ">
                 <div className=' card-effect'>
                   <h4 className='text-center fw-bold desig-head'>Front-end Developer</h4>
-                  <p className='mt-3' style={{textAlign:"justify"}}>I am a skilled front-end developer specializing in React.js, passionate about creating immersive and interactive user interfaces for web applications. With expertise in HTML, CSS, JavaScript, and React, I bring ideas to life by turning designs into responsive and dynamic components. I focus on optimizing performance, ensuring cross-browser compatibility, and implementing best practices to deliver fast and seamless user experiences. Whether it's building single-page applications, integrating APIs, or enhancing existing projects, I combine creativity with technical proficiency to produce visually appealing and functional solutions. I am dedicated to staying updated with the latest React developments and leveraging cutting-edge tools to deliver high-quality work that meets client objectives and exceeds expectations.</p>
+                  <p className='mt-3' style={{textAlign:"justify"}}>I am a skilled front-end developer specializing in React.js, passionate about creating immersive and interactive user interfaces for web applications. With expertise in HTML, CSS, JavaScript, and React, I bring ideas to life by turning designs into responsive and dynamic components. I focus on optimizing performance, ensuring cross-browser compatibility, and implementing best practices to deliver fast and seamless user experiences. Whether it's building single-page applications, integrating APIs, or enhancing existing projects, I combine creativity with technical proficiency to produce visually appealing and functional solutions. I am dedicated to staying updated with the latest React developments and leveraging cutting-edge tools to deliver </p>
                 </div>
               </div>
-              <div className="col-lg-6 col-md-12  col-sm-12 p-3">
+              <div className="col-lg-6 col-md-12  col-sm-12 p-3 ">
                 <div className=' card-effect'>
                   <h4 className='text-center fw-bold desig-head'>Back-end Developer</h4>
                   <p className='mt-3' style={{textAlign:"justify"}}>I am an experienced back-end developer specializing in Node.js and MongoDB, with a focus on building scalable and efficient server-side solutions for web applications. Leveraging the power of JavaScript, I design and implement RESTful APIs, manage databases, and handle server logic to ensure seamless data flow and optimal performance. With expertise in Node.js frameworks like Express.js and database management using MongoDB, I develop secure authentication systems, manage user sessions, and integrate third-party services to enhance functionality. I also prioritize code quality, scalability, and maintainability, using industry best practices and testing methodologies to deliver reliable and optimized back-end solutions.</p>
@@ -341,7 +341,7 @@ function Home() {
           <div className="col-lg-1 col-sm-0"></div>
         </div>
       </div>
-      <div id='projects' className=' row projects about-page'>
+      {/* <div id='projects' className=' row projects about-page'>
         <h1 className='text-center project-head'>My Projects</h1>
         <div className="col-lg-1 col-sm-0"></div>
         <div className="col-lg-10 col-sm-12">
@@ -440,7 +440,61 @@ function Home() {
           </div>
         </div>
         <div  className="col-lg-1 col-sm-0"></div>
-      </div>
+      </div> */}
+      <section class="content-section" id='projects'>
+            <div class="container px-4 px-lg-5">
+                <div class="content-section-heading text-center">
+                    <h3 class="service-head text-light mb-0">Portfolio</h3>
+                    <h2 class="text-light mb-5">Recent Projects</h2>
+                </div>
+                <div class="row gx-0">
+                    <div class="col-lg-6 project-section">
+                        <a class="portfolio-item" href="#!">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2 fw-bold">Movifydotcom</div>
+                                    <p class="mb-0">This is a Movie ticket booking wedsite with admin and user module that developed using the <b>MERN</b> Technologies like React Express Node MongoDB</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src={project1} alt="..." />
+                        </a>
+                    </div>
+                    <div class="col-lg-6 project-section">
+                        <a class="portfolio-item" href="#!">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2 fw-bold">Project Management</div>
+                                    <p class="mb-0">This is a Project Management website developed using the <b>MERN</b> Technologies like React Express Node MongoDB</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src={project2} alt="..." />
+                        </a>
+                    </div>
+                    <div class="col-lg-6 project-section">
+                        <a class="portfolio-item" href="#!">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2 fw-bold">Media Player</div>
+                                    <p class="mb-0">This is a Media player website ,users can add songs links and manage them and play , developed Technologies like <b>React </b></p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src={project3} alt="..." />
+                        </a>
+                    </div>
+                    <div class="col-lg-6 project-section">
+                        <a class="portfolio-item" href="#!">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2 fw-bold">Swiggy Clone</div>
+                                    <p class="mb-0">This is a Swiggy website clone devdeloped using <b>React</b></p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src={project5} alt="..." />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
       <div id='contact' className='contact d-flex flex-column justify-content-center align-items-center'>
         <h1 className='text-center contact-head'>Contact me</h1>
         <div className="form w-100 mt-5 contact-div">
