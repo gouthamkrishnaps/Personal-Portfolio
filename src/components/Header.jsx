@@ -28,9 +28,12 @@ function Header() {
               <Nav className="m-auto gap-5 nav-items">
                 <a href='#home'  className='nav-options'>Home</a>
                 <a href='#about' className='nav-options'>About</a>
-                <a href='#projects' className='nav-options'>Projects</a>
                 <a href='#skills' className='nav-options'>Technologies</a>
                 <a href='#services' className='nav-options'>Services</a>
+                <a href='#projects' className='nav-options'>Projects</a>
+                <a href='#features' className='nav-options'>Experience</a>
+                
+                
               </Nav>
               <Nav>
                 <div><a href='#contact' className='btn btn-outline-light rounded-pill px-5'>Catch me</a></div>

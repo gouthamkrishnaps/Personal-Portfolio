@@ -145,7 +145,7 @@ function Home() {
       <section>
       <div id='about' className='about-page'>
         <div className='d-flex flex-column justify-content-center align-items-center' >
-          <h1 className='abt-head'>About Me</h1>
+          <h1 className='abt-head fw-bold'>About Me</h1>
           <div className='profile-img'>
             <img className='rounded-circle about-img' src={Img1} alt="" />
           </div>
@@ -168,7 +168,7 @@ function Home() {
         </div>
       </div>
       <div id='skills' className='skills '>
-        <h1 className='text-center skills-head text-light'>Technical Skills</h1>
+        <h1 className='text-center fw-bold skills-head text-light'>Technical Skills</h1>
         <div className='d-flex justify-content-center align-items-center'>
           <div className="row skill-container">
             <div className="col-lg-3 col-md-3 col-sm-0"></div>
@@ -309,7 +309,7 @@ function Home() {
         </div>
       </div>
       <div id='services' className='services'>
-        <h1 className='text-center service-head'>Services</h1>
+        <h1 className='text-center fw-bold service-head'>Services</h1>
         <div className="row mt-5">
           <div className="col-lg-1 col-sm-0"></div>
           <div className="col-lg-10 col-sm-12 p-5">
@@ -446,7 +446,7 @@ function Home() {
       <section class="content-section" id='projects'>
             <div class="container px-4 px-lg-5">
                 <div class="content-section-heading text-center">
-                    <h3 class="service-head text-light mb-0">Recent Projects</h3>
+                    <h1 class="service-head fw-bold text-light mb-5">Recent Projects</h1>
                 </div>
                 <div class="row gx-0">
                     <motion.div 
@@ -511,7 +511,7 @@ function Home() {
       </section>
       <section class="py-5" id="features">
           <div class="container px-5 my-5">
-          <h1 className='text-center text-light mb-5'>Experience</h1>
+          <h1 className='text-center fw-bold text-light mb-5'>Experience</h1>
               <div class="row gx-5 exp">
                   <motion.div
                       initial={{ scale: 0 }}
@@ -555,7 +555,7 @@ function Home() {
           </div>
       </section>
       <div id='contact' className='contact d-flex flex-column justify-content-center align-items-center'>
-        <h1 className='text-center contact-head'>Contact me</h1>
+        <h1 className='text-center fw-bold contact-head'>Contact me</h1>
         <div className="form w-100 mt-5 contact-div">
           <p className='text-center'>Or connect directly @ <span style={{color:'grey'}}>gouthamkrishnaps02@gmail.com</span></p>
           <div className="row">
