@@ -138,7 +138,7 @@ function Home() {
             </div>
           </div>
           <div className="img-div col-lg-6 col-sm-12 d-flex flex-column justify-content-center align-items-center">
-             <button className='resume-btn fw-bold border border-light rounded-pill px-5'> Download Resume  <i class="fa-solid fa-download"></i></button>
+             <a href='https://drive.google.com/file/d/1929HmO5JecuZQ1xYUZyl7Hfn6V8FRXRD/view?usp=sharing'  target="_blank" download className='resume-btn btn fw-bold border border-light rounded-pill px-5 text-light'> Download Resume  <i class="fa-solid fa-download"></i></a>
           </div>
         </div>
       </div>
@@ -446,8 +446,7 @@ function Home() {
       <section class="content-section" id='projects'>
             <div class="container px-4 px-lg-5">
                 <div class="content-section-heading text-center">
-                    <h3 class="service-head text-light mb-0">Portfolio</h3>
-                    <h2 class="text-light mb-5">Recent Projects</h2>
+                    <h3 class="service-head text-light mb-0">Recent Projects</h3>
                 </div>
                 <div class="row gx-0">
                     <motion.div 
