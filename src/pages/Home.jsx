@@ -314,7 +314,7 @@ function Home() {
           <div className="col-lg-1 col-sm-0"></div>
           <div className="col-lg-10 col-sm-12 p-5">
             <div className="row">
-              <div className="col-lg-6 col-md-12 col-sm-12 p-3 service-card ">
+              <div className="col-lg-6 col-md-12 col-sm-12 p-3 ">
                 <div className=' card-effect'>
                   <h4 className='text-center fw-bold desig-head'>Full stack Developer</h4>
                   <p className='mt-3' style={{textAlign:"justify"}}>As a full-stack MERN (MongoDB, Express.js, React.js, Node.js) developer, I offer comprehensive expertise in building modern, scalable, and dynamic web applications. With proficiency in both front-end and back-end technologies, I craft seamless user experiences and robust server-side functionalities. My skills include designing responsive UI/UX interfaces using React.js, implementing RESTful APIs with Node.js and Express.js, managing databases with MongoDB, and ensuring efficient deployment and maintenance of web applications. I bring a passion for clean code, agile methodologies, and continuous learning to every project</p>
@@ -326,7 +326,7 @@ function Home() {
                   <p className='mt-3' style={{textAlign:"justify"}}>As a web designer, I specialize in creating visually stunning and intuitive user interfaces that enhance the digital experience for your audience. With a keen eye for aesthetics and a deep understanding of user behavior, I craft designs that not only look great but also drive engagement and conversion. My expertise includes creating responsive layouts, optimizing user flows, and incorporating modern design trends to create impactful websites and digital assets. I collaborate closely with clients to understand their brand identity and objectives, ensuring that every design reflects their vision and resonates with their target audience. </p>
                 </div>
               </div>
-              <div className="col-lg-6 col-md-12  col-sm-12 p-3 service-card ">
+              <div className="col-lg-6 col-md-12  col-sm-12 p-3 ">
                 <div className=' card-effect'>
                   <h4 className='text-center fw-bold desig-head'>Front-end Developer</h4>
                   <p className='mt-3' style={{textAlign:"justify"}}>I am a skilled front-end developer specializing in React.js, passionate about creating immersive and interactive user interfaces for web applications. With expertise in HTML, CSS, JavaScript, and React, I bring ideas to life by turning designs into responsive and dynamic components. I focus on optimizing performance, ensuring cross-browser compatibility, and implementing best practices to deliver fast and seamless user experiences. Whether it's building single-page applications, integrating APIs, or enhancing existing projects, I combine creativity with technical proficiency to produce visually appealing and functional solutions. I am dedicated to staying updated with the latest React developments and leveraging cutting-edge tools to deliver </p>
@@ -523,10 +523,10 @@ function Home() {
                         damping: 20
                       }} class="col-lg-6 mb-5 mb-lg-0 exp-1">
                       <div class="feature bg-success bg-gradient text-white rounded-3 mb-3"><i class="fa-solid fa-chalkboard-user"></i></div>
-                      <h3 class="h4 fw-bolder text-light">ME(A)RN STACK Development</h3>
-                      <h5 className='text-light'>Luminar Technolab Pvt Ltd , Kochi</h5>
-                      <p className='text-primary'>July 2023 - Feb 2024</p>
-                      <p className='text-light ' style={{textAlign:"justify"}}>My Full stack development at Luminar Technolab Pvt Ltd in Kochi from June 2023 to February 2024, had the opportunity to work on real-world projects, collaborating with a team of experienced developers to build and enhance web applications. This hands-on experience allowed me to deepen my understanding of React.js, Node.js, MongoDB, and Express.js, sharpening my skills in front-end and back-end development I also learned about agile development methodologies, version control systems like Git, and the importance of responsive and user-friendly design.</p>
+                      <h3 class=" fw-bolder text-light exp-head-1">ME(A)RN STACK Development</h3>
+                      <h5 className='text-light exp-head-2'>Luminar Technolab Pvt Ltd , Kochi</h5>
+                      <p className='text-primary exp-desc'>July 2023 - Feb 2024</p>
+                      <p className='text-light exp-desc' style={{textAlign:"justify"}}>My Full stack development at Luminar Technolab Pvt Ltd in Kochi from June 2023 to February 2024, had the opportunity to work on real-world projects, collaborating with a team of experienced developers to build and enhance web applications. This hands-on experience allowed me to deepen my understanding of React.js, Node.js, MongoDB, and Express.js, sharpening my skills in front-end and back-end development I also learned about agile development methodologies, version control systems like Git, and the importance of responsive and user-friendly design.</p>
                       
                   </motion.div>
                   <motion.div
@@ -538,10 +538,10 @@ function Home() {
                         damping: 20
                       }} class="col-lg-6 mb-5 mb-lg-0 exp-2">
                       <div class="feature bg-success bg-gradient text-white rounded-3 mb-3"><i class="fa-solid fa-graduation-cap"></i></div>
-                      <h3 class="h4 fw-bolder text-light">Bachelor of Computer Application (BCA)</h3>
-                      <h5 className='text-light'>Don Bosco College , Thrissur</h5>
-                      <p className='text-primary'>June 2020 - March 2023</p>
-                      <p className='text-light' style={{textAlign:"justify"}}>My BCA program at Don Bosco College Mannuthy from June 2020 to March 2023, I delved into various aspects of computer applications. The curriculum covered a wide range programming languages like Java, C, and php, database management systems, web development, software engineering principles, and computer networking. I participated in practical sessions, projects, and seminars that enriched my understanding and skills in software development, data management, and IT infrastructure.</p>
+                      <h3 class=" fw-bolder text-light exp-head-1">Bachelor of Computer Application (BCA)</h3>
+                      <h5 className='text-light exp-head-2'>Don Bosco College , Thrissur</h5>
+                      <p className='text-primary  exp-desc'>June 2020 - March 2023</p>
+                      <p className='text-light  exp-desc' style={{textAlign:"justify"}}>My BCA program at Don Bosco College Mannuthy from June 2020 to March 2023, I delved into various aspects of computer applications. The curriculum covered a wide range programming languages like Java, C, and php, database management systems, web development, software engineering principles, and computer networking. I participated in practical sessions, projects, and seminars that enriched my understanding and skills in software development, data management, and IT infrastructure.</p>
                       
                   </motion.div>
                   {/* <div class="col-lg-4 exp-3">

@@ -287,12 +287,21 @@ section{
     .abt-des{
         font-size: 40px;
     }
+    .exp-desc{
+        font-size: 40px;
+    }
     .about-img{
         width: 250px;
     }
     .abt-head{
         font-size: 80px;
         font-weight: bold;
+    }
+    .exp-head-1{
+        font-size: 80px;
+    }
+    .exp-head-2{
+        font-size: 60px;
     }
     .skills-head{
         font-size: 80px;
