@@ -11,3 +11,14 @@
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
+@media (max-width:1000px){
+    .offcanvas-icon{
+        font-size: 80px;
+    }
+    .nav-items a{
+        font-size: 40px;
+    }
+    .btn-name{
+        font-size: 40px;
+    }
+}

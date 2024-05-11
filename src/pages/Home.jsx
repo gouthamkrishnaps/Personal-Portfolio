@@ -168,7 +168,7 @@ function Home() {
         </div>
       </div>
       <div id='skills' className='skills '>
-        <h1 className='text-center skills-head'>Technical Skills</h1>
+        <h1 className='text-center skills-head text-light'>Technical Skills</h1>
         <div className='d-flex justify-content-center align-items-center'>
           <div className="row skill-container">
             <div className="col-lg-3 col-md-3 col-sm-0"></div>
