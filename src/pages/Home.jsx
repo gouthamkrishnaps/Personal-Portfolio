@@ -131,7 +131,10 @@ function Home() {
               <div className='mt-5'>
                 <p className='line-1 anim-typewriter fw-bold'>MERN STACK Developer</p>
               </div>
-               <div className='know-btn'> <Button variant='outline-light' className='rounded-pill px-5'>Know more</Button></div>
+              <div className="social-links d-flex gap-5">
+                <a href="https://www.linkedin.com/in/gouthamkrishnaps" target="_blank" className='fs-4 fw-bold' style={{textDecoration:"none",color:"white"}}><img src="https://beaconman.com/wp-content/uploads/2020/11/Linkedin_symbol_transparent.png" alt="" height={"50px"} width={"70px"} /> LinkedIn</a>
+                <a href="https://github.com/gouthamkrishnaps" target="_blank" className='fs-4 fw-bold' style={{textDecoration:"none",color:"white"}}><img src="http://pngimg.com/uploads/github/github_PNG85.png" alt="" height={"50px"} width={"50px"} /> GitHub</a>
+              </div>
             </div>
           </div>
           <div className="img-div col-lg-6 col-sm-12 d-flex flex-column justify-content-center align-items-center">
@@ -305,7 +308,6 @@ function Home() {
           </div>
         </div>
       </div>
-
       <div id='services' className='services'>
         <h1 className='text-center service-head'>Services</h1>
         <div className="row mt-5">
@@ -448,7 +450,10 @@ function Home() {
                     <h2 class="text-light mb-5">Recent Projects</h2>
                 </div>
                 <div class="row gx-0">
-                    <div class="col-lg-6 project-section">
+                    <motion.div 
+                      initial={{ opacity: 0 }}
+                      whileInView={{ opacity: 1 }}
+                      transition={{ ease: "easeOut", duration: 2 }} class="col-lg-6 project-section">
                         <a class="portfolio-item" href="#!">
                             <div class="caption">
                                 <div class="caption-content">
@@ -458,8 +463,11 @@ function Home() {
                             </div>
                             <img class="img-fluid" src={project1} alt="..." />
                         </a>
-                    </div>
-                    <div class="col-lg-6 project-section">
+                    </motion.div>
+                    <motion.div 
+                      initial={{ opacity: 0 }}
+                      whileInView={{ opacity: 1 }}
+                      transition={{ ease: "easeOut", duration: 2 }} class="col-lg-6 project-section">
                         <a class="portfolio-item" href="#!">
                             <div class="caption">
                                 <div class="caption-content">
@@ -469,8 +477,11 @@ function Home() {
                             </div>
                             <img class="img-fluid" src={project2} alt="..." />
                         </a>
-                    </div>
-                    <div class="col-lg-6 project-section">
+                    </motion.div>
+                    <motion.div 
+                      initial={{ opacity: 0 }}
+                      whileInView={{ opacity: 1 }}
+                      transition={{ ease: "easeOut", duration: 2 }} class="col-lg-6 project-section">
                         <a class="portfolio-item" href="#!">
                             <div class="caption">
                                 <div class="caption-content">
@@ -480,8 +491,12 @@ function Home() {
                             </div>
                             <img class="img-fluid" src={project3} alt="..." />
                         </a>
-                    </div>
-                    <div class="col-lg-6 project-section">
+                    </motion.div>
+                    <motion.div 
+                      initial={{ opacity: 0 }}
+                      whileInView={{ opacity: 1 }}
+                      transition={{ ease: "easeOut", duration: 2 }} 
+                      class="col-lg-6 project-section">
                         <a class="portfolio-item" href="#!">
                             <div class="caption">
                                 <div class="caption-content">
@@ -491,10 +506,55 @@ function Home() {
                             </div>
                             <img class="img-fluid" src={project5} alt="..." />
                         </a>
-                    </div>
+                    </motion.div>
                 </div>
             </div>
-        </section>
+      </section>
+      <section class="py-5" id="features">
+          <div class="container px-5 my-5">
+          <h1 className='text-center text-light mb-5'>Experience</h1>
+              <div class="row gx-5 exp">
+                  <motion.div
+                      initial={{ scale: 0 }}
+                      whileInView={{ rotate: 360, scale: 1 }}
+                      transition={{
+                        type: "spring",
+                        stiffness: 660,
+                        damping: 20
+                      }} class="col-lg-6 mb-5 mb-lg-0 exp-1">
+                      <div class="feature bg-success bg-gradient text-white rounded-3 mb-3"><i class="fa-solid fa-chalkboard-user"></i></div>
+                      <h3 class="h4 fw-bolder text-light">ME(A)RN STACK Development</h3>
+                      <h5 className='text-light'>Luminar Technolab Pvt Ltd , Kochi</h5>
+                      <p className='text-primary'>July 2023 - Feb 2024</p>
+                      <p className='text-light ' style={{textAlign:"justify"}}>My Full stack development at Luminar Technolab Pvt Ltd in Kochi from June 2023 to February 2024, had the opportunity to work on real-world projects, collaborating with a team of experienced developers to build and enhance web applications. This hands-on experience allowed me to deepen my understanding of React.js, Node.js, MongoDB, and Express.js, sharpening my skills in front-end and back-end development I also learned about agile development methodologies, version control systems like Git, and the importance of responsive and user-friendly design.</p>
+                      
+                  </motion.div>
+                  <motion.div
+                      initial={{ scale: 0 }}
+                      whileInView={{ rotate: 360, scale: 1 }}
+                      transition={{
+                        type: "spring",
+                        stiffness: 660,
+                        damping: 20
+                      }} class="col-lg-6 mb-5 mb-lg-0 exp-2">
+                      <div class="feature bg-success bg-gradient text-white rounded-3 mb-3"><i class="fa-solid fa-graduation-cap"></i></div>
+                      <h3 class="h4 fw-bolder text-light">Bachelor of Computer Application (BCA)</h3>
+                      <h5 className='text-light'>Don Bosco College , Thrissur</h5>
+                      <p className='text-primary'>June 2020 - March 2023</p>
+                      <p className='text-light' style={{textAlign:"justify"}}>My BCA program at Don Bosco College Mannuthy from June 2020 to March 2023, I delved into various aspects of computer applications. The curriculum covered a wide range programming languages like Java, C, and php, database management systems, web development, software engineering principles, and computer networking. I participated in practical sessions, projects, and seminars that enriched my understanding and skills in software development, data management, and IT infrastructure.</p>
+                      
+                  </motion.div>
+                  {/* <div class="col-lg-4 exp-3">
+                      <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="fa-solid fa-building-columns"></i></div>
+                      <h3 class="h4 fw-bolder text-light">ME(A)RN STACK Development</h3>
+                      <h5 className='text-light'>Luminar Technolab Pvt Ltd (Kochi)</h5>
+                      <p className='text-light'>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                      
+                  </div> */}
+              </div>
+              
+          </div>
+      </section>
       <div id='contact' className='contact d-flex flex-column justify-content-center align-items-center'>
         <h1 className='text-center contact-head'>Contact me</h1>
         <div className="form w-100 mt-5 contact-div">
@@ -513,9 +573,10 @@ function Home() {
           </div>
           
         </div>
+              
         <p className='text-center mt-5'>Copyright © 2024 Goutham Krishna P S | Personal Portfolio. Built with React.</p>
       </div>
-    </section>
+      </section>
       
     </div>
   )
